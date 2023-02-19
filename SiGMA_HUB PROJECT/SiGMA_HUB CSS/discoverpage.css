@@ -8,8 +8,8 @@ body{
 @media screen and (max-width: 767px) {
     .videos .video {
       width: 100%;
-      position:relative;
-      object-fit:cover;
+      object-fit:fill;
+      position: absolute;
     }}
   
 
