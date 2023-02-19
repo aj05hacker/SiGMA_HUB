@@ -20,7 +20,7 @@ z-index: 999;
 .sigma_logo img
 {
 height: 120%;
-width: 16%;
+width: auto;
 z-index: 999;
 }
 /*=========================NAVIGATION BAR (END)==========================*/
