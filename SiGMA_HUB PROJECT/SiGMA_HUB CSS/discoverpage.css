@@ -9,6 +9,7 @@ body{
     .videos .video {
       width: 100%;
       position:relative;
+      object-fit: fill;
     }}
   
 
