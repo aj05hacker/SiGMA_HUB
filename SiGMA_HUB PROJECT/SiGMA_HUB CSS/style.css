@@ -61,7 +61,7 @@ opacity:100%;
 #discover-button 
 {
 background: linear-gradient(to right rgb(0, 0, 0) rgb(155, 106, 0));
-color: rgb(131, 131, 131);
+color: rgb(0, 0, 0);
 position: absolute;
 top: 55%;
 left: 50%;
