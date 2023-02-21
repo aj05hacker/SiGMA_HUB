@@ -17,8 +17,6 @@ z-index: 999;
 
 }
 
-
-
 /*-------------NAVBAR-LOGO---------------------*/
 .sigma_logo img
 {
@@ -46,7 +44,7 @@ position: absolute;
 object-fit: fill;
 z-index: 1;
 padding-top: 6%;
-opacity:30%;
+opacity:100%;
 }
 
 
@@ -62,7 +60,7 @@ opacity:30%;
 
 #discover-button 
 {
-background: linear-gradient(to right, #f12711, #f5af19);
+background: linear-gradient(to right rgb(68, 68, 68), #033442);
 color: white;
 position: absolute;
 top: 55%;
@@ -76,7 +74,7 @@ opacity: 50%;
 
 #discover-button:hover 
 {
-background: linear-gradient(to right, #119bf1, #66f519);
+background: linear-gradient(to right, rgb(136, 136, 252), #66f519);
 color:black;
 box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
 }
