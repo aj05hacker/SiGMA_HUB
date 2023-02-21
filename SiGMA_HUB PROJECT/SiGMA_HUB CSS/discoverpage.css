@@ -65,7 +65,7 @@ width: 100%;
 z-index: 999;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     nav {
       height: 8%;
     }
