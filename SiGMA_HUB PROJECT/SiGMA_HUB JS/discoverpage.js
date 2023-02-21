@@ -1,3 +1,5 @@
+//HOVER EFFECT FOR VEDIO (START)-----------------------------
+
 var videos = document.getElementsByClassName('hover-video');
 
         for (var i = 0; i < videos.length; i++) {
@@ -10,3 +12,4 @@ var videos = document.getElementsByClassName('hover-video');
                 this.currentTime = 0;
             });
         }
+//HOVER EFFECT FOR VEDIO (END)-------------------------------
