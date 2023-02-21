@@ -1,9 +1,45 @@
+/*----------BACKGROUND COLOR------------------*/
+
 body{
     background-color:black;
     padding:0px;
 }
 
+/*--------------NAVIGATION BAR (START)---------*/
 
+nav 
+{
+display: flex;
+justify-content: center;
+background-image: linear-gradient(to right, #ffc115 50%, #1a1a1a 50%);
+height: 13%;
+position: fixed;
+width: 100%;
+z-index: 999;
+}
+
+@media (max-width: 400px) 
+{
+nav {
+      height: 8%;
+    }
+}
+
+.sigma_logo img
+{
+height: 110%;
+width: auto;
+z-index: 999;
+}
+
+
+/*----------------NAVIGATION BAR (END)----------*/
+
+
+
+
+
+/*------------VEDIOS-ALIGNMENT (START)-----------*/
     .videos {
         padding-top: 5%;
         display: flex;
@@ -37,6 +73,17 @@ body{
         transition: all 0.3s ease;
     }
     
+
+
+/*------------VEDIOS-ALIGNMENT (END)-----------*/
+
+
+
+
+
+/*------------VEDIOS-HOVER PLAY (START)-----------*/
+
+
     .video:hover .overlay {
         opacity: 1;
     }
@@ -54,30 +101,13 @@ body{
     }
 
 
-nav 
-{
-display: flex;
-justify-content: center;
-background-image: linear-gradient(to right, #ffc115 50%, #1a1a1a 50%);
-height: 13%;
-position: fixed;
-width: 100%;
-z-index: 999;
-}
 
-@media (max-width: 400px) {
-    nav {
-      height: 8%;
-    }
-  }
+/*------------VEDIOS-HOVER PLAY (END)-----------*/
 
-.sigma_logo img
-{
-height: 110%;
-width: auto;
-z-index: 999;
-}
 
+
+
+/*----------MOBILE RESPONSE-VEDIOS (START)---------*/
 
 @media screen and (max-width: 767px) {
     .videos .video {
@@ -98,5 +128,5 @@ z-index: 999;
   }
   }
   
-  
+  /*----------MOBILE RESPONSE-VEDIOS (END)---------*/
 
