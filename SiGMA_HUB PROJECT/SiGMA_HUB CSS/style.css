@@ -16,6 +16,12 @@ width: 100%;
 z-index: 999;
 }
 
+
+@media (max-width: 767px) {
+    nav {
+      height: 10%;
+    }
+  }
 /*-------------NAVBAR-LOGO---------------------*/
 .sigma_logo img
 {
