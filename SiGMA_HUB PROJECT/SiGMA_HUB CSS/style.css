@@ -14,12 +14,13 @@ height: 13%;
 position: fixed;
 width: 100%;
 z-index: 999;
+
 }
 
 
 @media (max-width: 1000px) {
     nav {
-      height: 10%;
+      height: 5%;
     }
   }
 /*-------------NAVBAR-LOGO---------------------*/
